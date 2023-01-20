@@ -150,13 +150,13 @@ button {
 /* heto */
 
 .hero {
+  background-color: var(--NAVY-BLUE);
   background-image: linear-gradient(
       to right,
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/bkc-img.jpg");
-  /* background-image: url("../images/bkc-img.jpg"); */
+    url(../images/bkc-img.jpg);
   background-repeat: no-repeat;
   background-size: 100%;
   padding: 188px 0;
@@ -169,7 +169,7 @@ button {
   color: var(--white);
   font-weight: 700;
   font-size: 56px;
-  line-height: 60px;
+  line-height: 1;
   margin-bottom: 48px;
   /* width: 494px; */
 }
@@ -415,6 +415,7 @@ button {
 
 .portfolio-item:nth-last-of-type(n + 4) {
   margin-bottom: 48px;
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
 
 .portfolio-title {
