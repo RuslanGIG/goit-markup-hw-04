@@ -237,6 +237,33 @@ button {
   line-height: 1.5;
 }
 
+.about-item::before{
+  display:block;
+  content: '' ;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center; 
+  height: 112px;
+  background-color: #F4F4FD;
+}
+
+.icon-strategy::before{
+  background-image: url(../images/strategy.svg);
+}
+
+.icon-punctualy::before{
+background-image: url(../images/punctuality.svg);
+}
+
+.icon-diligence::before{
+  background-image: url(../images/diligence.svg);
+}
+
+.icon-tehnologies::before{
+  background-image: url(../images/technologies.svg );
+}
+
+
 /* end */
 
 /* work */
