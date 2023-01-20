@@ -237,32 +237,31 @@ button {
   line-height: 1.5;
 }
 
-.about-item::before{
-  display:block;
-  content: '' ;
+.about-item::before {
+  display: block;
+  content: "";
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center; 
+  background-position: center;
   height: 112px;
-  background-color: #F4F4FD;
+  background-color: #f4f4fd;
 }
 
-.icon-strategy::before{
+.icon-strategy::before {
   background-image: url(../images/strategy.svg);
 }
 
-.icon-punctualy::before{
-background-image: url(../images/punctuality.svg);
+.icon-punctualy::before {
+  background-image: url(../images/punctuality.svg);
 }
 
-.icon-diligence::before{
+.icon-diligence::before {
   background-image: url(../images/diligence.svg);
 }
 
-.icon-tehnologies::before{
-  background-image: url(../images/technologies.svg );
+.icon-tehnologies::before {
+  background-image: url(../images/technologies.svg);
 }
-
 
 /* end */
 
@@ -383,6 +382,16 @@ background-image: url(../images/punctuality.svg);
 /* portfolio */
 
 /* filrt */
+
+.flex-footer {
+  display: flex;
+  align-items: center;
+}
+
+.old-footer {
+  margin-right: 120px;
+}
+
 .section-portfolio {
   padding-top: 96px;
   padding-bottom: 120px;
@@ -417,6 +426,42 @@ background-image: url(../images/punctuality.svg);
   border: 1px solid #404bbf;
   border-radius: 4px;
   padding: 12px 24px;
+}
+
+.social-item {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  background-color: rgba(255, 255, 255, 0.1);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 24px;
+  border-radius: 50%;
+}
+
+.social-item:not(:last-child) {
+  margin-right: 16px;
+}
+
+.inst-footer {
+  background-image: url(../images/instagram.svg);
+}
+
+.twit-footer {
+  background-image: url(../images/twitter.svg);
+}
+
+.face-footer {
+  background-image: url(../images/facebook.svg);
+}
+
+.link-footer {
+  background-image: url(../images/linkedin.svg);
+}
+
+.social-item:hover,
+.social-item:focus {
+  background-color: rgba(49, 208, 170, 1);
 }
 
 /* end */
